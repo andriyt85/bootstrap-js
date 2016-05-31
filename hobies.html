@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My bootstrap page with JS</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-inverse">
+      <ul class="nav nav-pills  mynav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">About me
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="foto.html">Foto</a></li>
+                <li><a href="hobies.html">Hobbies</a></li>           
+              </ul>
+        </li>   
+      </ul>
+      <ul class="nav nav-pills navbar-right navlog">
+          <li>
+              <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+          </li>
+        <li>
+          <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        </li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="col-xs-12 col-md-12">
+      <h1>My Hobbies</h1>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <a class="colla" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h4 class="panel-title">Hiking</h4>
+            </a>            
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <strong>Hiking</strong> is the preferred term, in Canada and the United States, for a long, vigorous walk, usually on trails (footpaths), in the countryside, while the word walking is used for shorter, particularly urban walks. On the other hand, in the United Kingdom, and the Republic of Ireland, the term walking is acceptable to describe all forms of walking, whether it is a walk in the park or backpacking in the Alps. The word hiking is also often used in the UK, along with rambling (a slightly old-fashioned term), hillwalking, and fell walking (a term mostly used for hillwalking in northern England). In New Zealand a long, vigorous walk or hike is called tramping. It is a popular activity with numerous hiking organizations worldwide, and studies suggest that all forms of walking have health benefits.
+          </div>
+        </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">    
+                <a class="collapsed colla" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4 class="panel-title">Sport</h4>
+                </a>              
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+               <strong>Swimming</strong> is an individual or team sport and activity. Competitive swimming is one of the most popular Olympic sports, with events in freestyle, backstroke, breaststroke, and butterfly. In addition to these individual events, Olympic swimmers also participate in relays. Swimmers can also compete in open-water events (i.e. swimming in the Ocean).<br/>
+               <strong>Bodybuilding</strong> is the use of progressive resistance exercise to control and develop one's musculature. An individual who engages in this activity is referred to as a bodybuilder. In competitive amateur and professional bodybuilding, bodybuilders appear in lineups doing specified poses, and later perform individual posing routines, for a panel of judges who rank competitors based on criteria such as symmetry, muscularity and conditioning
+              </div>
+            </div>
+          </div>
+        <div class="panel panel-default" style="margin:0;">
+          <div class="panel-heading" role="tab" id="headingThree">    
+              <a class="collapsed colla" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h4 class="panel-title">Cycling</h4>
+              </a>            
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              <strong>Cycling</strong>, also called bicycling or biking, is the use of bicycles for transport, recreation, exercise or sport. Persons engaged in cycling are referred to as "cyclists", "bikers", or less commonly, as "bicyclists". Apart from two-wheeled bicycles, "cycling" also includes the riding of unicycles, tricycles, quadracycles, recumbent and similar human-powered vehicles (HPVs).
+            </div>
+          </div>
+        </div>
+      </div> 
+      <br/>
+      <br/>
+      <br/>
+      <table>
+      <caption><strong>Time for hobbies</strong></caption>
+        <tr>
+          <th>Hobbies</th>
+          <th>Season</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>Hiking</td>
+          <td>Spring-Autumn</td>
+          <td>40%</td>
+        </tr>
+         <tr>
+          <td>Swimming</td>
+          <td>Summer</td>
+          <td>20%</td>
+        </tr>
+         <tr>
+          <td>Cycling</td>
+          <td>Spring-Autumn</td>
+          <td>30%</td>
+        </tr>
+        <tr>
+          <td>Films</td>
+          <td>All time</td>
+          <td>30%</td>
+        </tr>
+        <tr>
+          <td>Music</td>
+          <td>All time</td>
+          <td>60%</td>
+        </tr>
+        <tr>
+          <td>Books</td>
+          <td>Winter</td>
+          <td>40%</td>
+        </tr>
+      </table>   
+    </section>
+  </div>
+  <div style="width:0;height:0;clear:both;"></div>
+  <footer style="clear:left">
+      <p><small>&copy; All rights reserved.</small></p>
+  </footer>
+</body>
+</html>

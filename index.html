@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My bootstrap page with JS</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse">
+      <ul class="nav nav-pills  mynav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">About me
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="foto.html">Foto</a></li>
+                <li><a href="hobies.html">Hobbies</a></li>           
+              </ul>
+        </li>   
+      </ul>
+      <ul class="nav nav-pills navbar-right navlog">
+          <li>
+              <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+          </li>
+        <li>
+          <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        </li>
+        </ul>
+    </nav>
+  </header>
+	    <div class="container">
+			<section class="col-xs-12 col-md-12">
+				<h1>Деяка інформація про мене</h1>
+				<p>Народився 18 липня 1985 року в м.Івано-Франківську. Навчався в ЗОШ №22, а пізніше в Івано-Франківському національному університеті нафти і газу. Люблю слухати українську рок-музику, читати фентезі книжки, а також люблю дивитись науково-популярні програми. Дуже люблю подорожувати. Одним з найкращих моїх хобі є активний відпочинок, а саме пішохідний туризм(англ. Hiking, спортивний туризм, легка хода) - один з найпоширеніших видів спортивного туризму, основною метою якого є подолання групою туристів маршруту по місцевості з місця відправлення до місця прибуття за вказаний. В Україні є прекрасне місце для даного виду спортивного туризму - Українські гори Карпати. На даний момент навчаюсь на курсах по front end розробці WEB UI, влаштовані Івано-Франківським ІТ кластером спільно з ІФНТУНГ</p>
+				<h3>Моє навчання</h3>
+				<ul id="firstList">
+					<li>ЗОШ №22</li>
+					<li><abbr title="Івано-Франківський національний технічний університет нафти і газу">ІФНТУН</abbr></li>
+					<li>Курси англійської мови<br/>
+						<ul>
+							<li>Pre-Intermediate</li>
+							<li>Intermediate</li>
+							<li>Apper-Intermediate</li>
+						</ul>
+					</li>
+					<li>Курси Front end програмування<br/>
+						<ul>
+							<li>IT-Cluster</li>
+						</ul>
+					</li>
+				</ul>
+				
+			</section>
+		</div>
+	<footer class="myfoot">
+	    <p><small>&copy; All rights reserved.</small></p>
+	</footer>
+</body>
+</html>
